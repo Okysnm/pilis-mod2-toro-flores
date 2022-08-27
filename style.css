@@ -99,3 +99,111 @@ header{
     overflow: auto;
     padding: 0 10px;
 }
+/*about*/
+#about{
+    background: #F55C7A;
+    padding: 100px 0;
+    
+}
+.about-title{
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+}
+.about-description{
+    float: right;
+    width: 55%;
+}
+.about-description .large{
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+}
+/*nosotros*/
+#nosotros{
+    background: #F55C7A;
+    padding: 100px 0;
+}
+.nosotros-title{
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+}
+.nosotros-title img{
+    float: left;
+    width: 80%;
+    padding-top: 10px;
+}
+.nosotros-description{
+    float: right;
+    width: 55%;
+}
+.nosotros-description .large{
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+/*general */
+h2 {
+    float: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #690a0a;
+    padding: 0px 10px 90px 10px;
+}
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+/*contact*/
+#contact{
+    padding: 120px 0;
+}
+.contact-form{
+    float: left;
+    width: 45%;
+    padding: 20px;
+}
+.contact-title{
+    float: right;
+    width: 55%;
+    padding-top: 160px;
+    text-align: center;
+}
+form .form-group {
+    margin-bottom: 1rem;
+}
+form .form-control {
+    width: 100%;
+    padding: 0.375rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border: none;
+}
+    /* Boton Form */
+.btn {
+    font-size: 15px;
+    padding: 14px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+    .btn-light {
+    background: #841934;
+    border: 1px solid #841934;
+    color: #fff;
+    width: 100%;
+    }
+    .btn-light:hover {
+    background: #fff;
+    border: 1px solid #841934;
+    color: #841934
+}
+#restemp{
+    padding: 500px 200px 100px 300px;
+    font-size: 2rem;
+    color: aqua;
+}

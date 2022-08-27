@@ -31,3 +31,20 @@ function onClick (event) {
       let formulario = document.getElementById('formulario');    
       formulario.reset();    
   }
+
+  let boton = document.getElementById("enviar");
+   boton.addEventListener("click", onClick);
+    async function getclima(){
+     try { let response = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=-24.18332&lon=-65.33128&appid=39f18590c50e933ada60859361ed6bc4");
+      let ipResponse = await response.json();
+       console.log(ipResponse);
+        let tempactual = ipResponse.main.temp - 273.15;
+         let tempact= tempactual.toFixed(2)+ 'ºC';
+          document.getElementById('resultado').innerHTML = tempact;
+           console.log(tempact);
+           } 
+           catch { 
+            console.log("Algo paso, no se pudo resolver...");
+           }
+           } 
+           getclima();
